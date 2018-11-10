@@ -111,6 +111,7 @@ public class SignUpActivity extends AppCompatActivity {
         mDialog.setMessage("Creating User please wait...");
         mDialog.setCanceledOnTouchOutside(false);
         mDialog.show();
+
         mAuth.createUserWithEmailAndPassword(Email,Password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -237,7 +238,6 @@ public class SignUpActivity extends AppCompatActivity {
 
 
 
-    // Empty edittext after done inserting process method.
     public void EmptyEditTextAfterDataInsert(){
 
         name.getText().clear();
@@ -257,7 +257,7 @@ public class SignUpActivity extends AppCompatActivity {
     // Method to check EditText is empty or Not.
     public void CheckEditTextStatus(){
 
-        // Getting value from All EditText and storing into String Variables.
+
         Name = name.getText().toString();
         Username = username.getText().toString();
         Birthdate = birthdate.getText().toString();

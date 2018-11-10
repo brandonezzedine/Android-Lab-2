@@ -6,7 +6,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
-import android.service.autofill.UserData;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
@@ -15,7 +14,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -98,19 +96,9 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        @Override
-        public void onClick(View v) {
 
-            String email = Email.getText().toString();
-            String password = Password.getText().toString();
+/*
 
-            switch (v.getId()){
-                case R.id.buttonLogin: signIn(email, password); break;
-                case R.id.buttonRegister: signUp(email, password); break;
-            }
-        }
-
-        private void signIn(String Email, String Password){
 
             mAuth = FirebaseAuth.getInstance();
 
@@ -121,7 +109,7 @@ public class LoginActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
 
                             Intent intent = new Intent(LoginActivity.this, LoginSuccessActivity.class);
-                            intent.putExtra("USER", new User(user.getName(), user.getPassword()));
+
                             Log.d(TAG, "signInWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             startActivity(intent);
@@ -137,7 +125,7 @@ public class LoginActivity extends AppCompatActivity {
                         // ...
                     }
                 });
-
+*/ 
         //UpdateButton OnClickListner :-
         UpdateButton.setOnClickListener(new View.OnClickListener() {
             @Override
