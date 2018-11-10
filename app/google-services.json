@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "204292796894",
+    "firebase_url": "https://uiandlogin-brandonezzedine.firebaseio.com",
+    "project_id": "uiandlogin-brandonezzedine",
+    "storage_bucket": "uiandlogin-brandonezzedine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204292796894:android:873a391ff48e9e98",
+        "android_client_info": {
+          "package_name": "com.example.brandonezz.androiduserinterfaceandlogin_brandon_ezzedine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204292796894-isot6kasci0bmefg004l7359qkurd1qn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.brandonezz.androiduserinterfaceandlogin_brandon_ezzedine",
+            "certificate_hash": "86e12d2448f0e308af6c7fdc7ef2d1295a4fc69b"
+          }
+        },
+        {
+          "client_id": "204292796894-3oddgsrv7a6nd0kptups5g6pg2rol7tg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQlw-vQufbFYVhF8p00ST2BqJ05yneSMo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204292796894-3oddgsrv7a6nd0kptups5g6pg2rol7tg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
